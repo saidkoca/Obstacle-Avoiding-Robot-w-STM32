@@ -1,5 +1,9 @@
 # Obstacle-Avoiding Smart Robot Car (STM32F072B-DISCO)
 
+**Mehmet Said Koca**     
+**Emre Erkek**    
+**Burak Bekir Çakırer**    
+
 This project implements an autonomous obstacle-avoiding robot car using the STM32F072B-DISCO board.  
 The robot measures distance with an HC-SR04 ultrasonic sensor, drives two DC motors through an L298N motor driver, adapts its speed using an LDR connected to the ADC, and sends real-time debug data wirelessly via an HC-06 Bluetooth module.  
 All peripherals are programmed at **register level** following the CMSIS standard.
